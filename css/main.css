@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: aquamarine;
+} */
+.map{
+    height: 99vh;
+    width: 100vw;
+}
+header{
+    width: 100%;
+    height: 85px;
+    z-index: 1;
+    position: absolute;
+    /* left: 0;
+    bottom: 0; */
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+.search-box{
+    height: 60px;
+    width: 28%;
+    background-color: white;
+    border-radius: 8px;
+
+}
+.search-box ul{
+    display: flex;
+    margin-top: 15px;
+}
+.search-box ul li{
+    display: block;
+    list-style-type: none;
+    margin-right: 12px;
+    margin-left: 10px;
+    
+}
+.search-box .search{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    padding: 0px 0px 0px 18px;
+    font-size: 17px;
+    margin-top: -7px;
+}
+.menu{
+    height: 80px;
+    width: auto;
+    /* background-color: rgb(16, 224, 127); */
+}
+.menu ul{
+    display: flex;
+    margin: 3px;
+}
+.menu ul li{
+    display: block;
+    list-style-type: none;
+    padding: 4px;
+    color: black;
+    margin: 14px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 4px 4px 3px lightgrey;
+    
+}
+.menu ul li span{
+    /* text-align: center; */
+    /* margin-top: -20px; */
+}
+.account{
+    height: 80px;
+    width: 6%;
+    /* background-color: yellow; */
+}
+.account ul{
+    display: flex;
+}
+.account ul li{
+    list-style-type: none;
+    margin: 12px;
+    margin-top: 25px;
+}
